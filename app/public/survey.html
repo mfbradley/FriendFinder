@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+
+    <!-- Links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!--Bootstrap-Select-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron">
+                    <h1>Survey</h1>
+                    <h3>Please take a few moments to complete the survey below.</h3>
+                </div>
+
+                <div class="aboutYou">
+                    <h3>About You</h3>
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon1">Name:</span>
+                        <input id="name" type="text" class="form-control" placeholder="Full Name" aria-describedby="basic-addon1">
+                    </div>
+
+                    <br>
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon2">Photo:</span>
+                        <input id="image" type="text" class="form-control" placeholder="Please insert a link to a photo of yourself" aria-describedby="basic-addon2">
+                    </div>
+                    <br>
+                    <div id="questionOne">
+                        <h4>Question 1:</h4>
+                        <p></p>
+                        <div class="dropdown">
+                            <select id="qOne" class="selectpicker" multiple title="Select an Option" data-max-options="1">
+                              <option>5 (Strongly Agree)</option>
+                              <option>4</option>
+                              <option>3</option>
+                              <option>2</option>
+                              <option>1 (Strongly Disagree)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="questionTwo">
+                        <h4>Question 2:</h4>
+                        <p></p>
+                        <div class="dropdown">
+                            <select id="qTwo" class="selectpicker" multiple title="Select an Option" data-max-options="1">
+                              <option>5 (Strongly Agree)</option>
+                              <option>4</option>
+                              <option>3</option>
+                              <option>2</option>
+                              <option>1 (Strongly Disagree)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="questionThree">
+                        <h4>Question 3:</h4>
+                        <p></p>
+                        <div class="dropdown">
+                            <select id="qThree" class="selectpicker" multiple title="Select an Option" data-max-options="1">
+                              <option>5 (Strongly Agree)</option>
+                              <option>4</option>
+                              <option>3</option>
+                              <option>2</option>
+                              <option>1 (Strongly Disagree)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="questionFour">
+                        <h4>Question 4:</h4>
+                        <p></p>
+                        <div class="dropdown">
+                            <select id="qFour" class="selectpicker" multiple title="Select an Option" data-max-options="1">
+                              <option>5 (Strongly Agree)</option>
+                              <option>4</option>
+                              <option>3</option>
+                              <option>2</option>
+                              <option>1 (Strongly Disagree)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="questionFive">
+                        <h4>Question 5:</h4>
+                        <p></p>
+                        <div class="dropdown">
+                            <select id="qFive" class="selectpicker" multiple title="Select an Option" data-max-options="1">
+                              <option>5 (Strongly Agree)</option>
+                              <option>4</option>
+                              <option>3</option>
+                              <option>2</option>
+                              <option>1 (Strongly Disagree)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="questionSix">
+                        <h4>Question 6:</h4>
+                        <p></p>
+                        <div class="dropdown">
+                            <select id="qSix" class="selectpicker" multiple title="Select an Option" data-max-options="1">
+                              <option>5 (Strongly Agree)</option>
+                              <option>4</option>
+                              <option>3</option>
+                              <option>2</option>
+                              <option>1 (Strongly Disagree)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="questionSeven">
+                        <h4>Question 7:</h4>
+                        <p></p>
+                        <div class="dropdown">
+                            <select id="qSeven" class="selectpicker" multiple title="Select an Option" data-max-options="1">
+                              <option>5 (Strongly Agree)</option>
+                              <option>4</option>
+                              <option>3</option>
+                              <option>2</option>
+                              <option>1 (Strongly Disagree)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="questionEight">
+                        <h4>Question 8:</h4>
+                        <p></p>
+                        <div class="dropdown">
+                            <select id="qEight" class="selectpicker" multiple title="Select an Option" data-max-options="1">
+                              <option>5 (Strongly Agree)</option>
+                              <option>4</option>
+                              <option>3</option>
+                              <option>2</option>
+                              <option>1 (Strongly Disagree)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="questionNine">
+                        <h4>Question 9:</h4>
+                        <p></p>
+                        <div class="dropdown">
+                            <select id="qNine" class="selectpicker" multiple title="Select an Option" data-max-options="1">
+                              <option>5 (Strongly Agree)</option>
+                              <option>4</option>
+                              <option>3</option>
+                              <option>2</option>
+                              <option>1 (Strongly Disagree)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="questionTen">
+                        <h4>Question 10:</h4>
+                        <p></p>
+                        <div class="dropdown">
+                            <select id="qTen" class="selectpicker" multiple title="Select an Option" data-max-options="1">
+                              <option>5 (Strongly Agree)</option>
+                              <option>4</option>
+                              <option>3</option>
+                              <option>2</option>
+                              <option>1 (Strongly Disagree)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br>
+                    <a href="survey.html"><button id="submit" type="button" class="btn btn-danger btn-lg"><span class="glyphicon glyphicon-plus"></span> Submit!</button></a>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<script>
+    $("#submit").on("click", function(event) {
+        event.preventDefault();
+
+        var newFriend = {
+            name: $("#name").val().trim(),
+            photo: $("#image").val(),
+            scores: [$("#qOne").val(), $("#qTwo").val(), $("#qThree").val(), $("#qFour").val(), $("#qFive").val(), $("#qSix").val(), $("#qSeven").val(), $("#qEight").val(), $("#qNine").val(), $("#qTen").val()],
+            traditional: true
+        };
+
+
+        console.log(newFriend);
+
+        $.post("/api/friends", newFriend)
+            .done(function(data) {
+                console.log(data);
+                alert("Adding friend...");
+            });
+    });
+</script>
+
+</html>
